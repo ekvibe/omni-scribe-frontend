@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 function App() {
   const [transcript, setTranscript] = useState("");
+  console.log(setTranscript); // temporary line to avoid unused var error
+
 
   const startTranscription = () => {
     console.log("Start transcription clicked");
